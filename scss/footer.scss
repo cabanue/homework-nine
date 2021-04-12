@@ -1,0 +1,15 @@
+footer {
+  margin: 0 auto;
+  display: flex;
+  max-width: 1000px;
+  height: 50px;
+  margin-top: 50px;
+  background-color: $red;
+  align-items: center;
+  justify-content: center;
+  p {
+    font-size: 18px;
+    color: gainsboro;
+    margin-bottom: 0;
+  }
+}

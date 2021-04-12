@@ -1,0 +1,73 @@
+#app {
+  .about {
+    max-width: 1000px;
+    margin: 0 auto;
+    .company {
+      display: flex;
+      flex-direction: column;
+      .about-hero {
+        min-height: 200px;
+        background-image: url(../images/fire.jpeg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .company-start {
+        margin-top: 20px;
+
+        h3 {
+          text-align: center;
+          font-size: 40px;
+        }
+      }
+    }
+    hr {
+      height: 4px;
+      background-color: $red;
+      margin-bottom: 20px;
+    }
+    .employees-heading {
+      text-align: center;
+      font-size: 40px;
+    }
+    .employees {
+      display: flex;
+      max-width: 1000px;
+      justify-content: space-between;
+      .employee {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 30%;
+        h3 {
+          font-size: 25px;
+        }
+        .employee-pic {
+          min-height: 200px;
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+        }
+        .emp1 {
+          background-image: url(../images/employee1.jpeg);
+        }
+        .emp2 {
+          background-image: url(../images/employee2.jpeg);
+        }
+        .emp3 {
+          background-image: url(../images/employee3.jpeg);
+        }
+        .employee-bio {
+          margin-top: 20px;
+          h4 {
+            font-size: 23px;
+          }
+          p {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}

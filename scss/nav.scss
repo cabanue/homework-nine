@@ -1,0 +1,13 @@
+nav {
+  max-width: 1000px;
+  margin: 0 auto 50px auto;
+
+  display: flex;
+  justify-content: space-around;
+  border-bottom: $red solid 2px;
+  a {
+    font-size: 40px;
+    color: $red;
+    text-decoration: none;
+  }
+}

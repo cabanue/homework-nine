@@ -1,0 +1,36 @@
+#app {
+  .previous {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    h1 {
+      font-size: 40px;
+    }
+  }
+  .projects {
+    margin-top: 40px;
+    .project {
+      display: flex;
+      width: 100%;
+      min-height: 200px;
+      margin-top: 20px;
+      .project-image {
+        width: 30%;
+        background-image: url(../images/project.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .project-description {
+        width: 70%;
+        padding-left: 25px;
+        h3 {
+          font-size: 30px;
+        }
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
